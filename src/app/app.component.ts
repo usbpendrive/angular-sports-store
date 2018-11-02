@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  // tslint:disable-next-line
+  selector: 'app',
+  template: `
+    <div class="bg-success p-2 text-center text-white">
+      This is SportsStore
+    </div>
+  `
 })
-export class AppComponent {
-  title = 'ng-sport-store';
-}
+export class AppComponent {}
